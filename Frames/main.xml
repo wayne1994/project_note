@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>docuum</title>	
+	<link rel="stylesheet" href="stylesheets/splash.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>	
+	<div class="container">
+		<div class="gutter_top"></div>
+		<div class="logo"></div>
+		
+		<div class="content">
+			<div class="info">
+				<div class="help_info"></div>
+				<!-- Enter McGill -->						
+					
+				<!-- <a href="/McGill/school/view" class="enter"/>
+				<a href="/Guelph/school/view" class="enter enter_guelph"/> -->
+
+				<div class="schools">					
+					<h1>Start</h1>
+					<a href="/McGill" class="enter_link">McGill</a><br/>
+					<a href="/York" class="enter_link">York</a><br/>
+					<!-- <a href="/Waterloo" class="enter_link">Waterloo</a><br/>
+					<a href="/UBC" class="enter_link">UBC</a><br/> -->													
+					<a href="/Guelph" class="enter_link">Guelph</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-4024483-2");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+</body>
+</html>

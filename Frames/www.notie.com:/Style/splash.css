@@ -1,0 +1,132 @@
+body {
+	background: #DFE3ED url('../images/splash/bg_00.png') repeat-x;
+	margin: 0;	
+	text-align: center;
+	font: large helvetica, arial, sans-serif;
+}
+
+p.clear {
+	clear: both;
+}
+
+div.container {
+	width: 860px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+div.container div.gutter_top {
+	width: 100%;
+	height: 25px;
+}
+
+div.container div.logo {
+	width: 100%;
+	height: 340px;
+	background-image: url('../images/splash/logo_desc.png');
+}
+
+div.container div.info {
+	width: 100%;
+	margin-top: 25px;
+}
+
+div.container div.info div.help_info {
+	background-image: url('../images/splash/help_desc.png');
+	width: 515px;
+	height: 240px;
+	float: left;
+}
+/*
+div.container div.info div.side_boxes {
+	background-image: url('../images/splash/side_boxes.png');
+	position: relative;
+	left: 16px;
+	width: 282px;
+	height: 319px;
+	float: right;
+	
+}
+
+div.container div.info div.side_boxes div.input_boxes {
+	position: relative;
+	top: 85px;
+	right: 27px;
+	text-align: right;
+	line-height: 26px;
+}
+
+input {
+	width: 150px;
+	background-color: #F4F4F4;
+	border: 1px solid #999;
+	font-size: 15px;
+}
+
+input:focus {
+	background-color: white;
+	border: 1px solid black;
+}*/
+
+/*div.container div.info a.enter {
+	background: url('../images/splash/enter_mcgill_side.png') no-repeat;
+	margin-top: 15px;
+	width: 299px;
+	
+	text-decoration: none;
+	text-align: right;
+	height: 44px;
+	line-height: 44px;
+	
+	float: left;
+	margin-left: 20px;
+}
+div.container div.info a.enter_guelph {
+	background: url('../images/splash/enter_guelph_side.png') no-repeat;
+}
+
+div.container div.info a.enter:hover {
+	background-position: 0 -44px;
+}*/
+
+a.enter_button {
+	background: url('../images/splash/enter_button_bg.png') no-repeat;
+	line-height: 44px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+	height: 44px;
+	width: 188px;
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+}
+
+	a.enter_button:hover {
+		background-position: 0 -44px;
+	}
+	
+a.enter_link {
+	color: #EC008C;
+	text-decoration: none;
+	font-size: 170%;
+	line-height: 130%;
+}	
+
+	a.enter_link:hover {
+		color: #0986CC;
+		color: #00678C;
+	}
+
+div.schools {
+	position: relative;
+/*	bottom: 280px;
+	left: 80px;	*/
+	float: right;
+	width: 225px;
+/*	width: 290px;*/
+}
+
+	div.schools h1 {
+		margin: 0.3em 0;
+	}
